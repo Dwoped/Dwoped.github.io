@@ -11425,6 +11425,7 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
@@ -11480,6 +11481,7 @@ footer.footer .social-link:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
