@@ -1,0 +1,14 @@
+#bars {
+	cursor: pointer;
+	transform: scale(1);
+	transition: transform 400ms;
+}
+#bars:hover {
+	transform: scale(1.15);
+}
+.masthead h1 {
+	color: #f8f9fa;
+}
+.masthead h3 {
+	color: #f8f9fa;
+}
