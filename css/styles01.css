@@ -3,12 +3,40 @@
 	transform: scale(1);
 	transition: transform 400ms;
 }
+
 #bars:hover {
 	transform: scale(1.15);
 }
+
 .masthead h1 {
 	color: #e9ecef;
 }
+
 .masthead h3 {
 	color: #dee2e6;
+}
+
+#contact a {
+	color: white;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+#contact a:active {
+	color: red;
+	text-decoration: none;
+}
+
+button {
+	transform: scale(1);
+	/*transition: transform 500ms;*/
+}
+
+button:hover{
+	transform: scale(1.15);
+	transition: transform 500ms;
 }
