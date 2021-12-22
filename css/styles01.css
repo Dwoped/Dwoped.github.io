@@ -1,7 +1,21 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 @keyframes bars {
 	0% {width: 0px;}
 	50% {width: 100%;}
 }
+
 #bars {
 	cursor: pointer;
 	transform: scale(1);
@@ -9,8 +23,7 @@
 	animation-name: bars;
 	animation-duration: 3s;
 	animation-direction: normal;
-	animation-timing-function: ease-in-out;
-	animation-delay: 1s;
+	animation-timing-function: ease-in-out;	
 }
 
 #bars:hover {
@@ -23,6 +36,15 @@
 
 .masthead h3 {
 	color: #dee2e6;
+}
+
+#contact h2 {
+	text-align: center;
+	
+}
+
+#contact hr {
+	margin: 0 auto;
 }
 
 #contact a {
@@ -54,20 +76,24 @@ button:hover{
 header h3 {
  /* color: #fff;
   font-family: monospace; */
+ 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .1em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em; /* Adjust as needed */
   animation: 
-    typing 5.0s steps(35, end) infinite,
+    typing 4.0s steps(35, end) infinite,
     blink-caret .4s step-end infinite;
+     text-align: center; 
 }
+ 
+
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 820px }
+  to { width: 230px }
 }
 
 /* The typewriter cursor effect */
@@ -79,3 +105,6 @@ header h3 {
 header a {
 	margin-top: 55px;
 }
+
+
+
