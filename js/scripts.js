@@ -78,3 +78,83 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+/* Add .bar-animation Class Only When Bar In View (Start) */
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const square = entry.target.querySelector('#bar1');
+  
+      if (entry.isIntersecting) {
+        square.classList.add('bar-animation');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      square.classList.remove('bar-animation');
+    });
+  });
+
+const observer2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const square = entry.target.querySelector('#bar2');
+  
+      if (entry.isIntersecting) {
+        square.classList.add('bar-animation');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      square.classList.remove('bar-animation');
+    });
+  });
+  
+const observer3 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const square = entry.target.querySelector('#bar3');
+  
+      if (entry.isIntersecting) {
+        square.classList.add('bar-animation');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      square.classList.remove('bar-animation');
+    });
+  });
+
+const observer4 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const square = entry.target.querySelector('#bar4');
+  
+      if (entry.isIntersecting) {
+        square.classList.add('bar-animation');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      square.classList.remove('bar-animation');
+    });
+  });
+
+const observer5 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const square = entry.target.querySelector('#bar5');
+  
+      if (entry.isIntersecting) {
+        square.classList.add('bar-animation');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      square.classList.remove('bar-animation');
+    });
+  });
+  
+observer.observe(document.querySelector('#services'));
+observer2.observe(document.querySelector('#services'));
+observer3.observe(document.querySelector('#services'));
+observer4.observe(document.querySelector('#services'));
+observer5.observe(document.querySelector('#services'));
+
+/* Add .bar-animation Class Only When Bar In View (END) */
