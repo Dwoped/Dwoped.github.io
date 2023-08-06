@@ -26,9 +26,9 @@
 	animation-timing-function: ease-in-out;	
 }
 
-#bars:hover {
+/* #bars:hover {
 	transform: scale(1.15);
-}
+} */
 
 .masthead h1 {
 	color: #e9ecef;

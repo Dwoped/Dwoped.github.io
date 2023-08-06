@@ -151,10 +151,10 @@ const observer5 = new IntersectionObserver(entries => {
     });
   });
   
-observer.observe(document.querySelector('#services'));
-observer2.observe(document.querySelector('#services'));
-observer3.observe(document.querySelector('#services'));
-observer4.observe(document.querySelector('#services'));
-observer5.observe(document.querySelector('#services'));
+observer.observe(document.querySelector('#skillset'));
+observer2.observe(document.querySelector('#skillset'));
+observer3.observe(document.querySelector('#skillset'));
+observer4.observe(document.querySelector('#skillset'));
+observer5.observe(document.querySelector('#skillset'));
 
 /* Add .bar-animation Class Only When Bar In View (END) */
